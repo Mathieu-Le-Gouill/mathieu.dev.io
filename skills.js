@@ -6,7 +6,7 @@
   const REPO = 'https://github.com/Mathieu-Le-Gouill/';
 
   // bar length is derived from the level, so it never looks arbitrary
-  const LEVELS = { expert: 90, proficient: 74, familiar: 56, learning: 34 };
+  const LEVELS = { expert: 85, proficient: 65, familiar: 50, learning: 35 };
 
   // inline fallback icons for skills without a brand logo
   const ICONS = {
@@ -26,7 +26,7 @@
           desc: 'Attention architectures implemented from scratch.',
           subs: ['Multi-Head Attention', 'BERT', 'CamemBERT', 'Tokenizers'],
           project: { label: 'Transformer-EN-FR', url: REPO + 'Transformer-EN-FR' } },
-        { name: 'LangChain / RAG', slug: 'langchain', level: 'proficient',
+        { name: 'LangChain / RAG', slug: 'langchain', level: 'expert',
           desc: 'Retrieval-augmented pipelines over private data.',
           subs: ['LangGraph', 'Langfuse', 'Vector stores', 'Embeddings'],
           project: { label: 'LangChain_RAG', url: REPO + 'LangChain_RAG' } },
@@ -52,7 +52,7 @@
           desc: 'Daily language for ML, tooling & APIs.',
           subs: ['asyncio', 'typing', 'NumPy', 'Pandas'],
           project: { label: 'Mini-Git', url: REPO + 'Mini-Git' } },
-        { name: 'SIMD / CUDA', slug: 'nvidia', level: 'proficient',
+        { name: 'SIMD / CUDA', slug: 'nvidia', level: 'familiar',
           desc: 'Low-level vectorisation for CPU & GPU.',
           subs: ['AVX', 'Intrinsics', 'Kernels', 'Cache-aware'],
           project: { label: 'Deep_Library_Cpp', url: REPO + 'Deep_Libray_Cpp' } },
@@ -78,7 +78,7 @@
           desc: 'Serving models as clean REST APIs.',
           subs: ['Uvicorn', 'Pydantic', 'REST', 'TOCK'],
           project: { label: 'LangChain_RAG', url: REPO + 'LangChain_RAG' } },
-        { name: 'Cloud · GCP / Azure', slug: 'googlecloud', level: 'proficient',
+        { name: 'Cloud · GCP / Azure', slug: 'googlecloud', level: 'familiar',
           desc: 'Deploying & evaluating models in the cloud.',
           subs: ['Google Cloud', 'Azure ML', 'Vertex AI'],
           context: 'Used @ Crédit Mutuel Arkéa' },
