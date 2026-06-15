@@ -177,7 +177,12 @@ img, svg { display: block; }
   align-items: center;
   gap: 9px;
 }
-.brand .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--grad); box-shadow: 0 0 12px var(--cyan); }
+.nav-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
 .brand .muted { color: var(--text-3); }
 .nav-links { display: flex; align-items: center; gap: 6px; }
 .nav-links a {

@@ -63,7 +63,7 @@
         { name: 'Rust', slug: 'rust', level: 'learning',
           desc: 'Exploring memory-safe systems programming.',
           subs: ['Ownership', 'Cargo', 'OAuth / PKCE'],
-          context: 'Currently learning the basics' }
+          context: {label: 'OAuth2-Rust', url: REPO + 'OAuth2-Rust'} }
       ]
     },
     {
