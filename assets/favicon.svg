@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="geometricPrecision">
+
+  <polyline
+    points="18,14 42,32 18,50"
+    fill="none"
+    stroke="#22d3ee"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <line
+    x1="45"
+    y1="55"
+    x2="80"
+    y2="55"
+    stroke="#22d3ee"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+</svg>
